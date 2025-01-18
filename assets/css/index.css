@@ -1,7 +1,10 @@
 /* global */
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 body {
-  font-family: "Bree Serif", sans-serif;
+  box-sizing: content-box;
+  background-color: #057c54;
+  font-family: "Lexend", serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
 }
@@ -11,9 +14,15 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
+*{
+  color:white;
+}
+p {
+  color: #fff;
+}
 
 a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -81,14 +90,14 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 32px;
-  font-family: "Bungee Shade", sans-serif;
+  font-family: "Pangolin",serif;
 }
 .header-title a {
   text-decoration: none;
 }
 
 .header-subtitle {
-  color: #666;
+  color: #ffffffd5;
 }
 
 .header-items {
@@ -102,7 +111,7 @@ a:hover {
 .header-line {
   width: 100%;
   border-width: 2px;
-  border-color: #482936;
+  border-color: #ffffff00;
   border-style: solid none none none;
 }
 
@@ -157,6 +166,8 @@ a:hover {
 }
 
 .post-title {
+  font-family: "Pangolin",serif;
+  color: white;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -166,13 +177,14 @@ a:hover {
   font-weight: 600;
   padding: 2px 5px;
   margin-right: 6px;
-  border: #000 2px solid;
+  background-color: rgba(0, 0, 0, 0.507);
   border-radius: 5px;
 }
 
 .post-date {
+  font-family: "Pangolin",serif;
+  color: white;
   font-weight: 800;
-  font-style: italic;
 }
 
 .post-author {
@@ -231,6 +243,7 @@ a:hover {
 /* taxonomy */
 
 .taxonomy-term {
+  color: white;
   font-size: 3rem;
 }
 
