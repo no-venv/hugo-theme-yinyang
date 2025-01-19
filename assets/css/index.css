@@ -1,6 +1,7 @@
 /* global */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 body {
   box-sizing: content-box;
   background-color: #057c54;
@@ -14,9 +15,11 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
-*{
-  color:white;
+
+* {
+  color: white;
 }
+
 p {
   color: #fff;
 }
@@ -67,7 +70,7 @@ a:hover {
 
 /* reset code */
 
-.markdown-body pre > code {
+.markdown-body pre>code {
   padding: 0;
   font-size: 100%;
   background-color: inherit;
@@ -90,8 +93,9 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 32px;
-  font-family: "Pangolin",serif;
+  font-family: "Pangolin", serif;
 }
+
 .header-title a {
   text-decoration: none;
 }
@@ -166,7 +170,7 @@ a:hover {
 }
 
 .post-title {
-  font-family: "Pangolin",serif;
+  font-family: "Pangolin", serif;
   color: white;
   font-size: 2rem;
   font-weight: 600;
@@ -182,7 +186,7 @@ a:hover {
 }
 
 .post-date {
-  font-family: "Pangolin",serif;
+  font-family: "Pangolin", serif;
   color: white;
   font-weight: 800;
 }
@@ -279,6 +283,7 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .header-title,
   .header-subtitle,
   .header-items {
@@ -292,12 +297,15 @@ a:hover {
   .markdown-body {
     font-size: 16px;
   }
+
   .post-title {
     font-size: 2rem;
   }
+
   .post-content p {
     letter-spacing: 0.05em;
   }
+
   .post-content .post-gallery img {
     width: 100%;
   }
